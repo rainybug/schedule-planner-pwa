@@ -1,11 +1,12 @@
 {
-  "name": "Schedule Planner",
-  "short_name": "Scheduler",
+  "name": "가변 블록 스케줄러",
+  "short_name": "스케줄러",
   "start_url": "/schedule-planner-pwa/",
   "scope": "/schedule-planner-pwa/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#3b82f6",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "/schedule-planner-pwa/icon-192.png",
@@ -16,6 +17,20 @@
       "src": "/schedule-planner-pwa/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/schedule-planner-pwa/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/schedule-planner-pwa/screenshot-mobile.png",
+      "sizes": "360x640",
+      "type": "image/png",
+      "form_factor": "narrow"
     }
   ]
 }
